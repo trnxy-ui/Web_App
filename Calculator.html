@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="Styles/Calculator -styles.css">
+
+    </head>
+    <body>
+           <div class="main-div">
+             <div class="calc-structure">
+                <div class="upper-div">
+                <input type="text" class="Input" id="input-Num">
+              </div>
+
+              <div class="sub-div">
+                <button class="button"  onclick="collectnum('1')">1</button>
+                <button class="button"  onclick="collectnum('2')">2</button>
+                <button class="button"  onclick="collectnum('3')">3</button>
+                <button class="add"  onclick="clickOperation('+')">+</button>
+              </div>
+
+              <div class="sub-div">
+                <button class="button"  onclick="collectnum('4')">4</button>
+                <button class="button"  onclick="collectnum('5')">5</button>
+                <button class="button"  onclick="collectnum('6')">6</button>
+                <button class="minus"  onclick="clickOperation('-')">-</button>
+              </div>
+
+              <div class="sub-div">
+                <button class="button"  onclick="collectnum('7')">7</button>
+                <button class="button"  onclick="collectnum('8')">8</button>
+                <button class="button"  onclick="collectnum('9')">9</button>
+                <button class="divide"  onclick="clickOperation('/')">/</button>
+            </div>
+
+              <div class="sub-div">
+                <button class="dot"  onclick="collectnum('.')">.</button>
+                <button class="button"  onclick="collectnum('0')">0</button>
+                <button class="fact"  onclick="clickOperation('!')">!</button>
+                <button class="multiply"  onclick="clickOperation('*')">*</button>
+              </div>
+
+              <div class="lower-div">
+                <button class="button-calc"  onclick="calculate()">Calculate</button>
+                <button class="button-clear" onclick="Clear()">Clear</button>
+              </div>
+
+             </div>
+           </div>
+
+           <script src="Scripts/Calc-script.js"></script>
+
+    </body>
+</html>

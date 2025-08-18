@@ -1,0 +1,102 @@
+.main-div{
+    background-color: rgba(168, 19, 206, 0.925);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+
+}
+
+.calc-structure{
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    justify-content: center;
+    row-gap: 9px;
+    background-color: rgba(14, 36, 233, 0.829);
+    border-radius: 20px;
+    border-width: 0.5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.Input{
+    border-radius: 50px;
+    height: 40px;
+    width: 350px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.sub-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dot{
+    font-size: 33px;
+    text-align: center;
+}
+.multiply{
+    font-size: 23px;
+    text-align:center;
+
+}
+.minus{
+        font-size: 33px;
+}
+.divide,.add,.fact{
+    font-size: 23px;
+}
+.button,.button-calc,.button-clear,.dot,.multiply,.minus,.divide,.add,.fact{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 97px;
+    height: 67px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.7s, color 0.7s;
+}
+.button:hover,.button-calc:hover,.button-clear:hover,.dot:hover,.multiply:hover,
+.minus:hover,.divide:hover,.add:hover,.fact:hover{
+    background-color: rgb(201, 20, 20);
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.Input{
+    margin-bottom: 9px;
+}
+
+.lower-div{
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.upper-div{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(22, 178, 189, 0.623);
+    box-shadow: 
+    0.5px 1px 11px rgba(0, 0, 0, 0.3456),
+    -0.5px -0.5px 2px rgba(0, 0, 0, 0.3456)
+    ;
+}
+
+.button-calc{
+margin-left: 4px;
+flex: 2;
+margin-right: 6px;
+}
+
+.button-clear{
+    flex: 1;
+    margin-right: 4px;
+}
+
+.button{
+   background-color:color-mix(in srgb, color pink   , color blue);
+}

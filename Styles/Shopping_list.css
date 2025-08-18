@@ -1,0 +1,58 @@
+body{
+    display: flex;
+}
+
+.prompt-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 410px ;
+    align-items: center;
+    
+}
+.outer1,.outer2{
+    display: inline-block;
+    margin-right: 50px;
+    width: 415px;
+}
+.outer1{
+    position: sticky;
+    top: 0;
+}
+.outer2{
+    margin-top: 40px;
+}
+
+
+.display-div{
+    width: 410px;
+    height: 500px;
+    display: block;
+}
+.AddItem{
+    width: 100px; 
+    height: 30px;
+}
+.display-div{
+    display: flex;
+    flex-direction: column ;
+    row-gap: 0px;
+
+}
+.List{
+    width: 403px;
+    height: 500px;
+    display: flex;
+
+    resize: none;
+    display: flex;
+    overflow-y: hidden;
+    text-align: center;
+
+
+}
+ul{
+    border-width: 1px;
+    border-style: solid;
+    
+}
